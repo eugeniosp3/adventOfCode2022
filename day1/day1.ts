@@ -1,6 +1,7 @@
 import { readFile, readFileSync } from 'fs';
 
 let food = readFileSync("./day1data.txt", 'utf8').toString()
+
 function add(accumulator, a) {
     return accumulator + a;
   }
