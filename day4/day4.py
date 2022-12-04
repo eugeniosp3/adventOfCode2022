@@ -1,3 +1,8 @@
+"""
+Why did this take me so long? I was sloppy and overconfident in checking if the two lists were overlapping and by how much. 
+This opened me up to the error of 2-2 not coming as 22 if i were to concatenate strings. Not ideal. Oh, well got it done. 
+"""
+
 import pydash as _
 import re
 test = data.split('\n')[1:-1]
