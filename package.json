@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}

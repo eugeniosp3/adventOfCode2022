@@ -1,9 +1,13 @@
 # day 3
 
 """
-Part A - There is a rucksack. The rucksack has two compartments. An elf is not paying attention and when divvying up he puts the same item twice, once per rucksack. We need to find the item, and then give it it's priority value. If the item is lowercase then it gets a score between 1 and 26. If the item is uppercase it gets a priority between 27 and 52. 
+Part A - There is a rucksack. The rucksack has two compartments. An elf is not paying attention and when divvying up he puts the same item twice, once per rucksack.
+We need to find the item, and then give it it's priority value. If the item is lowercase then it gets a score between 1 and 26.
+If the item is uppercase it gets a priority between 27 and 52. 
 
-Part B -- Elves are spread up into groups of 3. There are official badges given to each elf. The sticker this year was kinda sus so we're not sure which item is the actual badge or something. So we have to see which item overlaps between the 3 elves and then sum the priorities as we did in Part A's rules. 
+Part B -- Elves are spread up into groups of 3. There are official badges given to each elf. 
+The sticker this year was kinda sus so we're not sure which item is the actual badge or something. 
+So we have to see which item overlaps between the 3 elves and then sum the priorities as we did in Part A's rules. 
 """
 
 import string
